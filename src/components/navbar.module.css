@@ -1,3 +1,11 @@
+.back{
+  z-index: 0;
+  background-color: #cb9686;
+  width: 40%;
+  position: absolute;
+  right: 0;
+  height: 1000px;
+}
 .nav{
     /* border: 2px solid red; */
     /* text-align: center; */
@@ -26,7 +34,7 @@
     font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
-  .list-items{
+  .listItems{
     /* border: 2px solid rgb(21, 56, 255); */
     /* padding: 2rem; */
     margin: auto 0px;
@@ -75,8 +83,13 @@
   }
   .btn{
     color: white;
+    letter-spacing: 2px;
+    font-size: 1em;
     border: none;
-    font-size: large;
     padding: 2px;
     background-color: transparent;
+  }
+  .btn a{
+    text-decoration: none;
+    color: white;
   }

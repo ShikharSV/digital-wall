@@ -16,14 +16,6 @@ code {
   padding: 0;
   box-sizing: border-box;
 }
-.back{
-  z-index: 0;
-  background-color: #cb9686;
-  width: 40%;
-  position: absolute;
-  right: 0;
-  height: 1000px;
-}
 .nav{
   /* border: 2px solid red; */
   /* text-align: center; */
@@ -116,22 +108,22 @@ a img{
   display: flex;
   height: 60%;
 }
-.blog-first{
+.blogFirst{
   border: 2px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-.blog-first section{
+.blogFirst section{
   display: flex;
   justify-content: right;
 }
-.blog-first section img{
+.blogFirst section img{
   margin-top: 3px;
   padding-right: 2px;
   margin-right: 3px;
 }
-.most-liked{
+.mostLiked{
   border: 2px solid beige;
   font-size: small;
   font-weight: 300;
@@ -155,7 +147,7 @@ a img{
   letter-spacing: 4px;
   color: #FF42B3;
 }
-.blog-write{
+.blogWrite{
   border: 2px solid rgb(255, 0, 85);
   text-align: center;
 }
